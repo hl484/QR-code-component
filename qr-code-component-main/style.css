@@ -3,26 +3,26 @@ body {
     font-family: 'Lexend', sans-serif;
     flex-direction: column; /* 垂直排列 */
     justify-content: center; /* 中心對齊 */
-    align-items: center; /* 水平居中 */
+    align-items: center; /* 使用在空格,水平居中 */
     min-height: 100vh; /* 讓內容填滿整個視窗高度 */
     margin: 0; /* 移除默認外邊距 */
     background-color: hsl(204, 70%, 91%); /* 背景色 */
 
 }
 
-/* 卡片樣式 */
+/*!* 卡片樣式 *!*/
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* 卡片樣式 */
+/*!* 卡片樣式 *!*/
 .card {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: center;/*!* center the qr code pic/*!*/
     padding: 20px;
     max-width: 300px;
 }
@@ -36,28 +36,28 @@ body {
 }
 
 
-/* QR Code 圖片 */
+/*!* QR Code 圖片 *!*/
 .qr-code {
     border-radius: 10px;
-    width: 100%;
+    width: 100%;/* 讓qr code圖片填滿卡片 */
     margin-bottom: 20px;
 }
 
-/* 標題文字 */
+/*!* 標題文字 *!*/
 .card h1 {
     font-size: 18px;
     color: hsl(218, 44%, 22%);
     margin-bottom: 10px;
 }
 
-/* 描述文字 */
+/*!* 描述文字 *!*/
 .card p {
     font-size: 14px;
     color: hsl(220, 15%, 55%);
     line-height: 1.5;
 }
 
-/* Attribution 固定在底部 */
+/*!* Attribution 固定在底部 *!*/
 .attribution {
     font-size: 11px;
     text-align: center;
