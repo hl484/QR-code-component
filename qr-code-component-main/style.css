@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    font-family: 'Lexend', sans-serif;
+    flex-direction: column; /* 垂直排列 */
+    justify-content: center; /* 中心對齊 */
+    align-items: center; /* 水平居中 */
+    min-height: 100vh; /* 讓內容填滿整個視窗高度 */
+    margin: 0; /* 移除默認外邊距 */
+    background-color: hsl(204, 70%, 91%); /* 背景色 */
+
+}
+
+/* 卡片樣式 */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 卡片樣式 */
+.card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.card h1 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 24px;
+    font-weight: 900; /* 設置為最大粗體 */
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 10px;
+}
+
+
+/* QR Code 圖片 */
+.qr-code {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* 標題文字 */
+.card h1 {
+    font-size: 18px;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 10px;
+}
+
+/* 描述文字 */
+.card p {
+    font-size: 14px;
+    color: hsl(220, 15%, 55%);
+    line-height: 1.5;
+}
+
+/* Attribution 固定在底部 */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px; /* 與內容保持距離 */
+}
